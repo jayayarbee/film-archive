@@ -1,64 +1,30 @@
-# Film Archive — Version 1
+# Film Archive
 
-A personal film archive for arthouse, independent and world-cinema lovers. This demo lets users browse films, record viewing details, manage watchlists and personal lists, and explore viewing statistics.
+**A Personal Film Archiving Platform for Cinephiles**
 
-## Requirements
+## Overview
 
-- Node.js 20.9 or newer
-- npm (installed with Node.js)
+Film Archive is a web-based platform designed to help cinephiles organise and maintain a personal record of their film-watching history. It allows users to document films they have watched, record ratings and reviews, create custom lists, and maintain a watchlist.
 
-## Getting started on Windows
+Unlike conventional film-tracking platforms, the project places particular emphasis on recording the edition or format of a film and the context in which it was watched.
 
-1. Extract the `film-archive` folder.
-2. Open that folder in VS Code.
-3. Open **Terminal → New Terminal**.
-4. Install the project packages:
+## Key Features
 
-   ```bash
-   npm install
-   ```
+- **Film Library:** Browse and manage a personal collection of watched films.
+- **Film Details:** Record ratings, reviews, editions and viewing information.
+- **Search and Filters:** Find films by director, country, decade, edition and viewing location.
+- **Custom Lists:** Create and organise personalised film collections.
+- **Watchlist:** Maintain a list of films to watch.
+- **Statistics Dashboard:** Explore viewing history and statistics.
 
-5. Start the development server:
+## Technology Stack
 
-   ```bash
-   npm run dev
-   ```
+- Next.js
+- React
+- JavaScript
+- CSS
 
-6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+## Inspiration
 
-To stop the server, press `Ctrl + C` in the terminal.
+The project takes inspiration from [Curate](https://www.producthunt.com/products/curate-9), discovered through Product Hunt. It is an independent implementation focused on personal film archiving, edition tracking and viewing history.
 
-## Pages
-
-- `/` — landing page
-- `/library` — film library, search, filters and add-film form
-- `/film/1` — an individual film's details (the number changes for each film)
-- `/lists` — create and manage personal film lists
-- `/dashboard` — viewing statistics
-
-## Project structure
-
-```text
-film-archive/
-├── app/
-│   ├── dashboard/page.js
-│   ├── film/[id]/page.js
-│   ├── library/page.js
-│   ├── lists/page.js
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js
-├── components/
-├── context/FilmContext.js
-├── data/
-│   ├── films.js
-│   └── options.js
-├── docs/PRODUCT-ASSUMPTIONS.md
-├── public/
-├── package.json
-└── package-lock.json
-```
-
-## Demo data and limitations
-
-The app uses sample data in `data/films.js` and React context in `context/FilmContext.js`. Changes are held in browser memory and reset when the page is refreshed. There is no backend, database, authentication or external film API in this MVP.
