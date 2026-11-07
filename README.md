@@ -62,7 +62,3 @@ film-archive/
 ## Demo data and limitations
 
 The app uses sample data in `data/films.js` and React context in `context/FilmContext.js`. Changes are held in browser memory and reset when the page is refreshed. There is no backend, database, authentication or external film API in this MVP.
-
-## Git note
-
-This download is a clean project folder and does not include a `.git` directory. Keep your existing GitHub repository/history separately. Once the project runs correctly, it can be connected to your existing repository and committed in stages.
