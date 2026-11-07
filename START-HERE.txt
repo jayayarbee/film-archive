@@ -1,0 +1,12 @@
+FILM ARCHIVE — VERSION 1
+
+1. Extract this ZIP.
+2. Open the film-archive folder in VS Code.
+3. Open Terminal > New Terminal.
+4. Run: npm install
+5. Run: npm run dev
+6. Open: http://localhost:3000
+
+Do not copy individual page.js files around. The folders in this ZIP are already arranged correctly.
+Do not add page.tsx or layout.tsx alongside the provided page.js and layout.js files.
+This ZIP does not include node_modules or a .git folder.
