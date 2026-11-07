@@ -1,7 +1,7 @@
 # PRODUCT ASSUMPTIONS
 
 **Team:** J&J  
-**Members:** Jihan Bangara, [Teammate's Full Name]  
+**Members:** Jihan Abdul Rahman B, Joel Thomas Kampadukad  
 **Inspiration:** Curate (Product Hunt)
 
 ## 1. What product are you planning to build?
